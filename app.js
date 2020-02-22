@@ -5,7 +5,7 @@ app.get('/',home);
 app.get('/signin/:city',signIn);
 
 function home(req, res){
-    res.send('hello nodejs express...');
+    res.send('hello to my nodejs express...');
 }
 
 function signIn(req,res){
