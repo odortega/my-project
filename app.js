@@ -10,7 +10,7 @@ function home(req, res){
 
 function signIn(req,res){
     var city = req.params.city;
-    res.send('Wellcome to ' + city + ' appeals');
+    res.send('Wellcome to ' + city + ' appeals thanks for comming');
 }
 
 app.listen(3000, writeConsole);
